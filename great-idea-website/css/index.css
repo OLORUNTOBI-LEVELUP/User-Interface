@@ -61,6 +61,74 @@ h1, h2, h3, h4, h5 {
     font-family: 'Bangers', cursive;
     letter-spacing: 1px;
     margin-bottom: 15px;
-}
+ }
 
 /* Your code starts here! */
+nav ul {
+	margin-left: 250px;
+}
+
+nav li {
+	 margin: 20px 10px; 
+	 padding: 20px;
+	font-size: 18px;
+	display:inline-block;
+	
+}
+nav li a {
+	text-decoration: none;
+}
+.logo {
+	display: inline-block;
+} 
+nav img {
+	margin-left: 40px;
+}
+
+h1 {
+	font-size: 100px;
+	display:inline-block;
+	margin-left: 250px;
+	text-align: center;
+}
+
+button {
+	width: 160px;
+	padding: 10px;
+	
+}
+.all {
+	border-top: 5px solid;
+	border-bottom: 5px solid;
+	margin:250px;
+	width: 916px;
+}
+.middle-img{
+	display: block;
+    margin-left: auto;
+    margin-right: auto;
+	padding: 20px;
+}
+.top-content {
+	width: 45%;
+	display: inline-block;
+	
+   }
+   
+   .bottom-content {
+	padding: 5%;
+	width: 45%;
+	display: inline-block;
+   }
+   .main-content {
+	   display: inline-block;
+   }
+
+   .footer {
+	margin:250px;
+	width: 916px;
+   }
+
+   .copyright {
+	   text-align: center;
+   }
