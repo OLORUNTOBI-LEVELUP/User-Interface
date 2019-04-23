@@ -135,20 +135,23 @@ button {
    }
 
    .top-content-bottom {
-	width: 20%;
+	display: inline-block;
+	width: 250px
+	
 
 	
    }
    
    .bottom-content-bottom {
-	padding: 5%;
-	width: 20%;
+	display: inline-block;
+	width: 300px;
+	padding: 50px;
 	
    }
    .middle-content-bottom {
-    padding: 5%;
-	width: 20%;
-	
+	padding: 50px;
+	display: inline-block;
+	width: 300PX;
    }
 
    .footer {
