@@ -64,15 +64,24 @@ h1, h2, h3, h4, h5 {
  }
 
 /* Your code starts here! */
+.navbar {
+	overflow: hidden;
+	background-color: #333;
+	position: fixed; 
+	top: 0; 
+	width: 100%; 
+  }
+
 nav ul {
 	margin-left: 250px;
 }
 
 nav li {
-	 margin: 20px 10px; 
-	 padding: 20px;
+	 margin: 10px 10px; 
+	 padding:  0px 20px;
 	font-size: 18px;
 	display:inline-block;
+	color: white;
 	
 }
 nav li a {
@@ -88,6 +97,7 @@ nav img {
 h1 {
 	font-size: 100px;
 	display:inline-block;
+	margin-top: 80px;
 	margin-left: 250px;
 	text-align: center;
 }
@@ -122,6 +132,23 @@ button {
    }
    .main-content {
 	   display: inline-block;
+   }
+
+   .top-content-bottom {
+	width: 20%;
+
+	
+   }
+   
+   .bottom-content-bottom {
+	padding: 5%;
+	width: 20%;
+	
+   }
+   .middle-content-bottom {
+    padding: 5%;
+	width: 20%;
+	
    }
 
    .footer {
