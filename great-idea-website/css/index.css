@@ -81,12 +81,12 @@ nav li {
 	 padding:  0px 20px;
 	font-size: 18px;
 	display:inline-block;
-	color: white;
 	font-family: 'Montserrat', sans-serif;
 	
 }
 nav li a {
 	text-decoration: none;
+	color:white;
 }
 .logo {
 	display: inline-block;
